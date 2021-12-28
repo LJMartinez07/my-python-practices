@@ -1,0 +1,10 @@
+pyg = 'ei'
+original = raw_input('Escribe una palabra:')
+if len(original) > 0 and original.isalpha():
+    original = original.lower()
+    palabra = original
+    print original
+if palabra[0] == 'a' or palabra[0] == 'e' or palabra[0] == 'i' or palabra[0] == 'o' or palabra[0] == 'u':
+    print 'vocal'
+else:
+    print 'consonante'
